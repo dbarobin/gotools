@@ -29,4 +29,9 @@ func main() {
 		USER   = os.Getenv("USER")
 		GOROOT = os.Getenv("GOROOT")
 	)
+
+	var x, y, z int
+	x, y, z = 5, 7, "abc"
+
+	//x, y, z := 5, 7, "abc"
 }
